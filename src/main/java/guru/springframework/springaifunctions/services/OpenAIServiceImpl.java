@@ -4,7 +4,7 @@ package guru.springframework.springaifunctions.services;
 import guru.springframework.springaifunctions.model.Answer;
 import guru.springframework.springaifunctions.model.Question;
 import lombok.RequiredArgsConstructor;
-import org.springframework.ai.chat.ChatClient;
+import org.springframework.ai.chat.model.ChatModel;
 import org.springframework.stereotype.Service;
 
 /**
@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class OpenAIServiceImpl implements OpenAIService {
 
-    final ChatClient chatClient;
+    final ChatModel chatModel;
 
     @Override
     public Answer getAnswer(Question question) {
