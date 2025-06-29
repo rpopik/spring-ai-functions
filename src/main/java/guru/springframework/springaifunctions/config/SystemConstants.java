@@ -9,7 +9,6 @@ public class SystemConstants {
     public static final String ACCEPT = "Accept";
 
     // Ninja API constants
-    public static final String NINJA_API_KEY = "sfg.ninja.api-key";
     public static final String NINJA_BASE_URL = "https://api.api-ninjas.com/v1/weather";
 
     // OpenAI Weather Service constants

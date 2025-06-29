@@ -2,9 +2,6 @@ package guru.springframework.springaifunctions.tools;
 
 import guru.springframework.springaifunctions.model.WeatherRequest;
 import guru.springframework.springaifunctions.model.WeatherResponse;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
 
 
