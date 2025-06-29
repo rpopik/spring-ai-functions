@@ -7,7 +7,7 @@ import guru.springframework.springaifunctions.model.Question;
 /**
  * Created by jt, Spring Framework Guru.
  */
-public interface OpenAIService {
+public interface OpenAIWeatherService {
 
     Answer getAnswer(Question question);
 }

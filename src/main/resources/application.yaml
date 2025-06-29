@@ -8,3 +8,7 @@ spring:
       chat:
         options:
           model: gpt-4
+sfg:
+  ninja:
+    base-url: https://api.api-ninjas.com/v1/weather
+    api-key: ${NINJA_API_KEY}
